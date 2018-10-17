@@ -1,0 +1,72 @@
+/*
+Theme Name: Blogger Base
+Theme URI: https://www.themesglance.com/themes/free-blogger-wordpress-theme/
+Author: Themesglance
+Author URI: https://www.themesglance.com/
+Description: Blogger Base is a child theme of Blogger Hub, It is a minimal WordPress theme designed aesthetically for giving modern look to your site. This multipurpose theme can be used for food blog, fashion blog, lifestyle blog, tech blog, sports blog, personal blog, travel blog, craft blog, photography blog etc. It can prove to be a landing page. Magazines and newsletter sites can seamlessly blend into its design. If you are looking for a theme for writing journal or your biography then Blogger Base is the answer for you. It can be used as a writer’s theme. It is a bloggers’ junction. The Blogger Base WordPress theme can be customized to make small to big changes. It is a fully responsive, cross-browser compatible and translation ready theme. The stunning design, interactive and user-friendly interface attract everyone’s attention and make them adhere to your site for longer time. Its SEO-friendliness gives your site a higher rank in Google search engine. Though the theme has various features and functionalities, still it has faster page loading ability. Demo: https://www.themesglance.com/blogger-hub-pro/
+Version: 0.1
+license : GNU General Public License v3.0
+License URI : http://www.gnu.org/licenses/gpl.html
+Text Domain: blogger-base
+Template: blogger-hub
+Tags: custom-background, custom-menu, custom-colors, custom-logo, editor-style, featured-images, front-page-post-form, full-width-template, footer-widgets, one-column, sticky-post, two-columns, theme-options, threaded-comments, right-sidebar, left-sidebar, grid-layout, three-columns, blog, news
+*/
+
+body{
+	background: #d6ddd6;
+	font-family: 'Poppins', sans-serif;
+}
+#header{
+	background: #d6ddd6;
+}
+#sidebar input[type="submit"], 
+#footer input[type="submit"],
+#sidebar h3,
+.blogbtn a,
+.pagination .current,
+.inner,
+.bradcrumbs a,
+#category_post h2,
+#sidebar td#today,
+#sidebar .tagcloud a:hover,
+#header .nav ul li a:hover,
+h1.page-title, h1.search-title{
+	background: #264826;
+}
+#comments input[type="submit"].submit{
+	background: #264826 !important;
+}
+#sidebar h3:after,
+#category_post h2:after,
+#header .nav ul li:hover > ul{
+	border-top-color: #264826;
+}
+.blog-sec h3 a{
+	color: #264826;
+}
+.post-info{
+	font-size: 13px;
+}
+.blog-sec p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+}
+.widget_calendar tbody a,
+input[type="search"]{
+	background: transparent;
+}
+#sidebar .tagcloud a:hover,
+.widget_calendar caption{
+	color: #fff;
+}
+.blog-sec p{
+	text-align: center;
+}
+.blog-sec h3{
+	margin: 0;
+}
+.post-hr{
+	margin-bottom: 8px;
+}
