@@ -1,26 +1,30 @@
+
 <div class="sidebar-main">
         	
             <div class="sidebar-widget">
             	<div class="search-main">
                     <form action="" id="search-form" method="get">
                              
-                        <input class="search-txt" type="text" value="Поиск" onBlur="if(this.value=='')this.value='Поиск'" onFocus="if(this.value=='Поиск')this.value=''" />
+                        <input name="s" class="search-txt" type="text" value="Поиск" onBlur="if(this.value=='')this.value='Поиск'" onFocus="if(this.value=='Поиск')this.value=''" />
                         <input type="image" src="<?php bloginfo(template_url);?>/images/search-btn.jpg" />
                              
                     </form>
                 </div>               
             </div>
-            
+        <?php if (!dynamic_sidebar('sidebar')): ?>
             <div class="sidebar-widget">
-            	<ul class="ads-main">
-                	<li><a href="#"><img src="<?php bloginfo(template_url);?>/images/ads1.jpg" alt="" /></a></li>
-                    <li><a href="#"><img src="<?php bloginfo(template_url);?>/images/ads2.jpg" alt="" /></a></li>
-                    <li><a href="#"><img src="<?php bloginfo(template_url);?>/images/ads3.jpg" alt="" /></a></li>
-                    <li><a href="#"><img src="<?php bloginfo(template_url);?>/images/ads4.jpg" alt="" /></a></li>
-                </ul>    
+                <h3> Виджеты сайд бара! </h3>
             </div>
+            <?php endif;?>
+
+       <!--     <div class="sidebar-widget">
+
+            	
+            </div> -->
+
             
-            <div class="sidebar-widget">
+<!--
+<div class="sidebar-widget">
             	<h3>Категории</h3>
                 
                 <ul class="side-categories">
@@ -77,11 +81,13 @@
                     <a href="#">Thanksgiving greeting card PSD</a>
                 </p>
                 
-            </div> 
+            </div> -->
+
+
             
             <div class="sidebar-widget">
             	<div class="facebook">
-                	<img src="<?php bloginfo(template_url);?>/images/facebook.jpg" alt="" />
+                	<img src="<?php bloginfo('template_url');?>/images/facebook.jpg" alt="" />
                 </div>
             </div>   
             
